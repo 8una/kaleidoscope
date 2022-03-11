@@ -126,7 +126,10 @@ $-container-radius: 10px;
   margin-left: $-container-margin;
   background-color: var(--background-tertiary);
 
-  > .scrollerBase-289Jih, // Server discovery
+  > .scrollerBase-289Jih // Server discovery
+  {
+    overflow: hidden;
+  }
   > .container-3w7J-x, // Guild channels
   > .privateChannels-1nO12o { // Private channels
     border-radius: $-container-radius;
